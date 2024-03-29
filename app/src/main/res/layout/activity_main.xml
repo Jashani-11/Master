@@ -9,10 +9,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:text="Button"
-        app:layout_constraintEnd_toStartOf="@id/anotherView"
-         />
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Button"
-        app:layout_constraintStart_toEndOf="@id/otherView"
         app:layout_constraintEnd_toStartOf="@id/anotherView"
+        app:layout_constraintStart_toEndOf="@id/otherView"
 
         tools:layout_editor_absoluteX="130dp" />
 
@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Button"
-        app:layout_constraintStart_toEndOf="@id/otherView"
         app:layout_constraintEnd_toStartOf="@id/anotherView"
+        app:layout_constraintStart_toEndOf="@id/otherView"
 
         tools:layout_editor_absoluteX="249dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
