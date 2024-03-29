@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Button"
-        app:layout_constraintStart_toEndOf="@id/otherView"
         app:layout_constraintEnd_toStartOf="@id/anotherView"
          />
 
